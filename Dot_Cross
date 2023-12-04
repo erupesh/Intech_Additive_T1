@@ -1,8 +1,16 @@
-The dot product and cross product are two fundamental operations in vector algebra. The dot product of two vectors is a scalar quantity that is equal to the product of their magnitudes and the cosine of the angle between them. The cross product of two vectors is a vector quantity that is perpendicular to both of the input vectors and has a magnitude equal to the product of their magnitudes and the sine of the angle between them.
+The dot product and cross product are two fundamental operations in vector algebra. 
+The dot product of two vectors is a scalar quantity that is equal to the product of their magnitudes and the cosine of the angle between them.
+The cross product of two vectors is a vector quantity that is perpendicular to both of the input vectors and has a magnitude equal to the product
+of their magnitudes and the sine of the angle between them.
 
-In graphics environments, the dot product is often used to calculate the angle between two vectors. For example, it can be used to determine the angle between the surface normal and the light direction to calculate the shading of a 3D object. The dot product can also be used to project one vector onto another.
+In graphics environments, the dot product is often used to calculate the angle between two vectors. For example, it can be used to determine the 
+angle between the surface normal and the light direction to calculate
+the shading of a 3D object. The dot product can also be used to project one vector onto another.
 
-The cross product is often used to calculate the normal vector of a plane or the axis of rotation between two vectors. For example, it can be used to calculate the normal vector of a polygon to determine its orientation in 3D space. The cross product can also be used to calculate the torque on a rotating object.
+The cross product is often used to calculate the normal vector of a plane or the axis of rotation between two vectors. 
+
+For example, it can be used to calculate the normal vector of a polygon to determine its orientation in 3D space. 
+The cross product can also be used to calculate the torque on a rotating object.
 
 Here are some links where you can learn more about the dot product and cross product:
 
@@ -10,8 +18,10 @@ Khan Academy
 Wolfram MathWorld
 Brilliant
 Math is Fun
-Regarding the bonus question, calculating the intersection between a ray and a plane/sphere/triangle is a common problem in computer graphics. There are many algorithms to solve this problem, but one common approach is to use the parametric equation of a line to represent the ray and the implicit equation of the surface to represent the plane/sphere/triangle. The intersection point can then be found by solving the resulting system of equations.
-
+Regarding the bonus question, calculating the intersection between a ray and a plane/sphere/triangle is a common problem in computer graphics.
+There are many algorithms to solve this problem, but one common approach is to use the parametric equation of a line to represent the ray and 
+the implicit equation of the surface to represent the plane/sphere/triangle. The intersection point can then be found by solving the resulting system of equations.
+ 
 Here are some links where you can learn more about this topic:
 
 Scratchapixel
