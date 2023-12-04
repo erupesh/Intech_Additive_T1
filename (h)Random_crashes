@@ -1,0 +1,20 @@
+I have referred this from stack overflow
+
+If a source code randomly crashes and never crashes in the same place, it could be due to a variety of reasons such as memory leaks, 
+uninitialized variables, buffer overflows, race conditions, or hardware issues. To isolate the cause of the crash, we can use a debugger 
+to analyze the crash dump and identify the location of the crash. We can then examine the code at that location and look for any suspicious 
+code patterns such as null pointer dereferences, out-of-bounds array accesses, or uninitialized variables. We can also use tools such as 
+Valgrind or Application Verifier to detect memory errors and other issues.
+
+If the crash is still not reproducible, we can try to add more debug statements to the code to gather more information about the state of 
+the program at the time of the crash. We can also try to run the program on different platforms or with different inputs to see if the crash
+is related to a specific environment or input.
+
+Bonus: computer architecture is a fascinating subject that deals with the design and organization of computer systems.
+It encompasses topics such as instruction set architecture, memory hierarchy, pipelining, and parallelism. At a high level, computer architecture
+is concerned with the performance, efficiency, and reliability of computer systems.
+
+One interesting topic in computer architecture is cache coherence, which is the problem of maintaining consistency between multiple caches 
+in a shared-memory system. Cache coherence is important for ensuring that all processors in the system have a consistent view of memory and 
+for avoiding data races and other synchronization issues. There are many techniques for implementing cache coherence, such as snooping,
+directory-based coherence, and hybrid schemes.
